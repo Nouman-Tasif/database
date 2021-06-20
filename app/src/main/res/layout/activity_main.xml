@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Student Record"
+        android:layout_margin="10dp"
+        android:textColor="#F3E7E7"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:textColorHint="#F3E7E7"
+        android:id="@+id/Student_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textColor="#F3E7E7"
+        android:hint="Student Id"/>
+    <EditText
+        android:id="@+id/Student_name"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="Student Name"
+        android:textColor="#F3E7E7"
+        android:textColorHint="#F3E7E7"/>
+    <EditText
+        android:id="@+id/Student_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:hint="Student City"
+        android:textColor="#F3E7E7"
+        android:textColorHint="#F3E7E7"
+        />
+    <EditText
+        android:id="@+id/Student_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:hint="Student Age"
+    android:textColor="#F3E7E7"
+        android:textColorHint="#F3E7E7"/>
+
+    <Button
+        android:id="@+id/btn_Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingRight="56dp"
+        android:layout_marginStart="90dp"
+
+        android:textSize="20dp"
+
+        android:text="Save Data"
+        android:layout_marginLeft="90dp" />
+
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:paddingRight="56dp"
+        android:layout_marginStart="90dp"
+android:textSize="20dp"
+        android:text="View Data"
+        android:layout_marginLeft="90dp" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:scrollbars="vertical">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/tv_viewData"
+        android:layout_width="match_parent"
+        android:textColor="#F3E7E7"
+        android:layout_height="wrap_content"/>
+
+
+</ScrollView>
+
+
+</LinearLayout>
